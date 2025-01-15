@@ -17,7 +17,7 @@ load_dotenv()
 
 st.title("RAG Application using Gemini Pro")
 
-loader = PyPDFLoader("AnomalyGPT_Practicum.pdf")
+loader = PyPDFLoader("Practical.pdf")
 data = loader.load()
 
 

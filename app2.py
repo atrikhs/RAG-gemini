@@ -17,7 +17,7 @@ st.title("RAG Application using Gemini Pro")
 
 # Load and process PDF document
 try:
-    loader = PyPDFLoader("AnomalyGPT_Practicum.pdf")
+    loader = PyPDFLoader("Practical.pdf")
     data = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
